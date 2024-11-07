@@ -1,0 +1,97 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Theatre Seat Booking</title>
+    <link rel="stylesheet" href="style.css">
+</head>
+<body>
+    <header>
+        <h1>Theatre Seat Booking</h1>
+        <p>Select your seats for the movie.</p>
+    </header>
+
+    <main>
+        <section class="seating-section">
+            <h2>Choose Your Seats</h2>
+            <div class="screen">Screen</div>
+            <div class="seats-container">
+                <!-- Example of 5 rows with 8 seats each -->
+                <div class="row">
+                    <div class="seat available" data-seat="A1"></div>
+                    <div class="seat available" data-seat="A2"></div>
+                    <div class="seat available" data-seat="A3"></div>
+                    <div class="seat available" data-seat="A4"></div>
+                    <div class="seat available" data-seat="A5"></div>
+                    <div class="seat available" data-seat="A6"></div>
+                    <div class="seat available" data-seat="A7"></div>
+                    <div class="seat available" data-seat="A8"></div>
+                </div>
+                <div class="row">
+                    <div class="seat available" data-seat="B1"></div>
+                    <div class="seat available" data-seat="B2"></div>
+                    <div class="seat available" data-seat="B3"></div>
+                    <div class="seat available" data-seat="B4"></div>
+                    <div class="seat available" data-seat="B5"></div>
+                    <div class="seat available" data-seat="B6"></div>
+                    <div class="seat available" data-seat="B7"></div>
+                    <div class="seat available" data-seat="B8"></div>
+                </div>
+                <div class="row">
+                    <div class="seat available" data-seat="C1"></div>
+                    <div class="seat available" data-seat="C2"></div>
+                    <div class="seat available" data-seat="C3"></div>
+                    <div class="seat available" data-seat="C4"></div>
+                    <div class="seat available" data-seat="C5"></div>
+                    <div class="seat available" data-seat="C6"></div>
+                    <div class="seat available" data-seat="C7"></div>
+                    <div class="seat available" data-seat="C8"></div>
+                </div>
+                <div class="row">
+                    <div class="seat available" data-seat="D1"></div>
+                    <div class="seat available" data-seat="D2"></div>
+                    <div class="seat available" data-seat="D3"></div>
+                    <div class="seat available" data-seat="D4"></div>
+                    <div class="seat available" data-seat="D5"></div>
+                    <div class="seat available" data-seat="D6"></div>
+                    <div class="seat available" data-seat="D7"></div>
+                    <div class="seat available" data-seat="D8"></div>
+                </div>
+                <div class="row">
+                    <div class="seat available" data-seat="E1"></div>
+                    <div class="seat available" data-seat="E2"></div>
+                    <div class="seat available" data-seat="E3"></div>
+                    <div class="seat available" data-seat="E4"></div>
+                    <div class="seat available" data-seat="E5"></div>
+                    <div class="seat available" data-seat="E6"></div>
+                    <div class="seat available" data-seat="E7"></div>
+                    <div class="seat available" data-seat="E8"></div>
+                </div>
+            </div>
+            <div class="legend">
+                <div>
+                    <div class="seat available"></div>
+                    <span>Available</span>
+                </div>
+                <div>
+                    <div class="seat selected"></div>
+                    <span>Selected</span>
+                </div>
+                <div>
+                    <div class="seat booked"></div>
+                    <span>Booked</span>
+                </div>
+            </div>
+            <button id="book-button">Book Selected Seats</button>
+            <div id="confirmation" class="confirmation"></div>
+        </section>
+    </main>
+
+    <footer>
+        <p>&copy; 2024 Theatre Seat Booking. All rights reserved.</p>
+    </footer>
+
+    <script src="script.js"></script>
+</body>
+</html>
